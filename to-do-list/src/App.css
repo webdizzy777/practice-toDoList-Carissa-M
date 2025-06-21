@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+li {
+  text-align: left;
+  padding: 5px;
+}
+li:hover {
+  color: cyan;
+  background-color: black;
+  cursor: pointer;
+  font-weight: bold;
+  padding-left: 10px;
+}
+h1 {
+  background-image: linear-gradient(
+    to bottom right,
+    orange,
+    yellow,
+    rgb(25, 229, 25),
+    cyan,
+    rgb(69, 69, 213),
+    rgb(242, 170, 242)
+  );
+  padding: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
